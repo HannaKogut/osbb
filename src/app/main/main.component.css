@@ -1,0 +1,63 @@
+.wrapper{
+	    font-family: 'Roboto', sans-serif ;
+}
+header{
+	
+
+
+}
+.container-fluid{
+	padding: 44px;
+
+}
+
+.main-content{
+
+    text-align: center;
+
+}
+h1{
+	border: 1px solid black;
+	-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+}
+main{
+	padding-top: 170px;
+}
+p{
+	font-size:20px;
+}
+.main-logo{
+	font-size: 25px
+}
+li{
+	list-style: none
+}
+.mainLogo{
+	height: 130px;
+	width: 157px;
+}
+.btn{
+	border: 2px solid grey;
+}
+#features{
+  padding-top: 170px;
+}
+
+
+.circle-list {
+    position: relative;
+    margin: 0;
+}
+
+.circle-list p{
+    margin: 0;
+}
+#borowers{
+border-radius: 18px 18px 18px 18px;
+-moz-border-radius: 18px 18px 18px 18px;
+-webkit-border-radius: 18px 18px 18px 18px;
+border: 2px solid grey;
+}
+ 
