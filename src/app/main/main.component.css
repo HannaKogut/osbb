@@ -1,13 +1,17 @@
 .wrapper{
 	    font-family: 'Roboto', sans-serif ;
 }
-header{
-	
-
+#navMain{
+	position: fixed;
+	background-color: white;
+	overflow: hidden;
+	z-index: 5;
+	width: 100%;
+	height: 118px;
 
 }
 .container-fluid{
-	padding: 44px;
+	padding: 10px;
 
 }
 
@@ -40,6 +44,13 @@ li{
 }
 .btn{
 	border: 2px solid grey;
+	font-weight: 400;
+	text-decoration: none;
+
+
+}
+a{
+text-decoration:  none;
 }
 #features{
   padding-top: 170px;
@@ -60,4 +71,5 @@ border-radius: 18px 18px 18px 18px;
 -webkit-border-radius: 18px 18px 18px 18px;
 border: 2px solid grey;
 }
+
  
