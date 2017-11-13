@@ -1,0 +1,23 @@
+#features{
+  padding-top: 220px;
+}
+
+
+.circle-list {
+   
+    margin: 0;
+
+}
+li{
+	list-style: none;
+}
+
+.circle-list p{
+    margin: 0;
+}
+#borowers{
+border-radius: 18px 18px 18px 18px;
+-moz-border-radius: 18px 18px 18px 18px;
+-webkit-border-radius: 18px 18px 18px 18px;
+border: 2px solid grey;
+}

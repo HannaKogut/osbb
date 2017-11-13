@@ -1,0 +1,47 @@
+<header>
+  <div class = 'container-fluid'>
+    <div class = 'row' id = 'nav-header'>
+      <div class = 'col-md-4 col-md-push-4 text-center'>
+        <a href="http://localhost:4200/#"> <img class="mainLogo" src="assets/images/log.svg"> </a>
+      </div>
+      <div class = 'col-md-3 col-md-pull-4'>
+        <a routerLink="/borowers" routerLinkActive="active"><b>Останні збори мешканців</b></a>
+      </div>
+      <div class = 'col-md-1 col-md-push-4'>
+        <a routerLink = 'gallery' routerLinkActive='active'><b>Галерея</b></a>
+      </div>
+      <div class = 'container'>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</header>
+<footer>
+  <div class = 'container-fluid'>
+    <div class = 'row'>
+      <span class = 'text-muted col-md-3'>Веб-сайт мешканців будинку в м.Львів <br> по вулиці Григоренка
+      </span>
+      <div class = 'col-md-push-7 col-md-2'>
+        <ul>
+          <li><p>Бухгалтер</p></li>
+          <li class = 'text-muted'>Анна</li>
+          <li class = 'text-muted'>097 458 61 21</li>
+        </ul>
+      </div>
+      <div class = 'col-md-push-3 col-md-2'>
+        <ul>
+          <li><p>Управляючий</p></li>
+          <li class = 'text-muted'>Ігор </li>
+          <li class = 'text-muted'>097 361 28 71</li>
+        </ul>
+      </div>
+      <div class = 'col-md-pull-1 col-md-2'>
+        <ul>
+          <li><p>Управляючий</p></li>
+          <li class = 'text-muted'>Ігор </li>
+          <li class = 'text-muted'>097 361 28 71</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
