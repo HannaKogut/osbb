@@ -2,46 +2,58 @@
   <div class = 'container-fluid'>
     <div class = 'row' id = 'nav-header'>
       <div class = 'col-md-4 col-md-push-4 text-center'>
-        <a href="http://localhost:4200/#"> <img class="mainLogo" src="assets/images/log.svg"> </a>
+        <a href="http://localhost:4200/#"> <img class="mainLogo" src="assets/images/var2.jpg"> </a>
       </div>
-      <div class = 'col-md-3 col-md-pull-4'>
-        <a routerLink="/borowers" routerLinkActive="active"><b>Останні збори мешканців</b></a>
+      
+      <div class = 'col-sm-10 col-xs-10 col-md-2 col-md-pull-4'>
+       <li><a data-toggle = 'tab' href="#borowers" routerLink="/borowers" routerLinkActive="active"><b>
+        <button type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-list-alt" ></span>Новини</button></b></a></li>
       </div>
-      <div class = 'col-md-1 col-md-push-4'>
-        <a routerLink = 'gallery' routerLinkActive='active'><b>Галерея</b></a>
+      <div class = 'col-sm-10 col-xs-10 col-md-2 col-md-pull-4'>
+       <li><a data-toggle = 'tab' href="#borowers" routerLink="/borowers" routerLinkActive="active"><b>
+        <button type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-usd" ></span>Фінанси</button></b></a></li>
+      </div>  
+      <div class = 'col-sm-10 col-xs-10 col-md-2 col-md-push-1'>
+
+       <li><a data-toggle = 'tab' href="#borowers" routerLink="/borowers" routerLinkActive="active"><b> 
+
+<button type="button" class="btn btn-default btn-md">
+  <span class="glyphicon glyphicon-paperclip" ></span>Документація</button></b></a></li>
+      </div>
+      <div class = 'col-md-2 col-md-push-1'>
+       <li><a href = '#gallery' data-toggle = 'tab' routerLink = 'gallery' routerLinkActive='active'><b>
+
+<button type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-phone" ></span>Контакти</button></b></a></li>
       </div>
       <div class = 'container'>
         <router-outlet></router-outlet>
       </div>
-    </div>
+
+  </div>
   </div>
 </header>
 <footer>
   <div class = 'container-fluid'>
     <div class = 'row'>
-      <span class = 'text-muted col-md-3'>Веб-сайт мешканців будинку в м.Львів <br> по вулиці Григоренка
+      <span class = 'text-muted col-md-3'>Веб-сайт мешканців будинку в м.Львів <br> по пл. П.Григоренка.4/вул. М.Менцинського.2
       </span>
       <div class = 'col-md-push-7 col-md-2'>
         <ul>
-          <li><p>Бухгалтер</p></li>
-          <li class = 'text-muted'>Анна</li>
-          <li class = 'text-muted'>097 458 61 21</li>
+          <li><p>Голова правління</p></li>
+          <li class = 'text-muted'>Ігор</li>
+          <li class = 'text-muted'>097 361 28 71</li>
+          <li class = 'text-muted'>tvoyezhytlo@gmail.com</li>
+          
         </ul>
       </div>
       <div class = 'col-md-push-3 col-md-2'>
         <ul>
-          <li><p>Управляючий</p></li>
-          <li class = 'text-muted'>Ігор </li>
-          <li class = 'text-muted'>097 361 28 71</li>
+          <li><p>Бухгалтер</p></li>
+          <li class = 'text-muted'>Анна </li>
+          <li class = 'text-muted'>097 458 61 21</li>
         </ul>
       </div>
-      <div class = 'col-md-pull-1 col-md-2'>
-        <ul>
-          <li><p>Управляючий</p></li>
-          <li class = 'text-muted'>Ігор </li>
-          <li class = 'text-muted'>097 361 28 71</li>
-        </ul>
-      </div>
+     
     </div>
   </div>
 </footer>

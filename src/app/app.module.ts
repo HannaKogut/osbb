@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { BorowersComponent } from './borowers/borowers.component';
 import { GaleryComponent } from './galery/galery.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,8 @@ import { GaleryComponent } from './galery/galery.component';
   imports: [
     BrowserModule,
     AppRoutingRoutingModule,
+    BrowserAnimationsModule,
+    
   ],
   exports: [
     RouterModule

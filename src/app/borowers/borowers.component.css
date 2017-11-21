@@ -21,3 +21,10 @@ border-radius: 18px 18px 18px 18px;
 -webkit-border-radius: 18px 18px 18px 18px;
 border: 2px solid grey;
 }
+h3{
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-size:  15px;
+}
