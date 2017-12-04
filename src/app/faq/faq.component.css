@@ -1,0 +1,13 @@
+
+h2{
+  border: 1px solid black;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+h3{
+  border-bottom: 2px dashed black;  
+}
+p{
+  font-size: 17px
+}

@@ -7,15 +7,41 @@ import { AppRoutingRoutingModule } from './app-routing/app-routing-routing.modul
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { BorowersComponent } from './borowers/borowers.component';
-import { GaleryComponent } from './galery/galery.component';
+
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { NewsComponent } from './news/news.component';
+import { FinancesComponent } from './finances/finances.component';
+import { DocumentationComponent } from './documentation/documentation.component';
+import { ContractsComponent } from './contracts/contracts.component';
+import { SpendingComponent } from './spending/spending.component';
+import { CalculationComponent } from './calculation/calculation.component';
+import { RegulationsComponent } from './regulations/regulations.component';
+import { ControlsProtocolsComponent } from './controls-protocols/controls-protocols.component';
+import { MeetingProtocolsComponent } from './meeting-protocols/meeting-protocols.component';
+import { RevisionComponent } from './revision/revision.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { FaqComponent } from './faq/faq.component';
+import { RouterLink } from '@angular/router';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     BorowersComponent,
-    GaleryComponent
+    
+    NewsComponent,
+    FinancesComponent,
+    DocumentationComponent,
+    ContractsComponent,
+    SpendingComponent,
+    CalculationComponent,
+    RegulationsComponent,
+    ControlsProtocolsComponent,
+    MeetingProtocolsComponent,
+    RevisionComponent,
+    ContactsComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

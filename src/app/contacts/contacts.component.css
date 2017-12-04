@@ -1,0 +1,11 @@
+
+.table{
+	background: white;
+	
+}
+h3{
+border-radius: 18px 18px 18px 18px;
+-moz-border-radius: 18px 18px 18px 18px;
+-webkit-border-radius: 18px 18px 18px 18px;
+border: 2px solid grey;
+}

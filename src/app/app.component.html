@@ -1,41 +1,69 @@
 <header>
   <div class = 'container-fluid'>
-    <div class = 'row' id = 'nav-header'>
+    <div class = 'row' >
       <div class = 'col-md-4 col-md-push-4 text-center'>
-        <a href="http://localhost:4200/#"> <img class="mainLogo" src="assets/images/var2.jpg"> </a>
+        <a href="http://osbb-levynske.lviv.ua/home"> <img class="mainLogo" src="assets/images/var2.jpg" > </a>
       </div>
-      
-      <div class = 'col-sm-10 col-xs-10 col-md-2 col-md-pull-4'>
-       <li><a data-toggle = 'tab' href="#borowers" routerLink="/borowers" routerLinkActive="active"><b>
+      <div class = 'col-sm-3 col-xs-10 col-md-1 col-md-pull-4'>
+        <li><a  href="#news" routerLink="/news" routerLinkActive="active" ><b>
         <button type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-list-alt" ></span>Новини</button></b></a></li>
       </div>
-      <div class = 'col-sm-10 col-xs-10 col-md-2 col-md-pull-4'>
-       <li><a data-toggle = 'tab' href="#borowers" routerLink="/borowers" routerLinkActive="active"><b>
-        <button type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-usd" ></span>Фінанси</button></b></a></li>
+      <div class = 'col-sm-3 col-xs-10 col-md-1 col-md-pull-3'>
+          <div class="dropdown">
+            <button type="button" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="true">
+              <span class="glyphicon glyphicon-usd"></span>
+                Фінанси
+                <span class="caret"></span>
+            </button>
+            <ul class = 'dropdown-menu ' >
+                <li ><a href ='#contracts' routerLink="/contracts" >Договори</a></li>
+                <li><a href ='#borowers' routerLink="/borowers">Боржники</a></li>
+                <li><a href ='#spending' routerLink="/spending">Витрати</a></li>
+                <li><a href ='#calculation' routerLink="/calculation">Кошторис</a></li>
+            </ul>
+          </div>
       </div>  
-      <div class = 'col-sm-10 col-xs-10 col-md-2 col-md-push-1'>
-
-       <li><a data-toggle = 'tab' href="#borowers" routerLink="/borowers" routerLinkActive="active"><b> 
-
-<button type="button" class="btn btn-default btn-md">
-  <span class="glyphicon glyphicon-paperclip" ></span>Документація</button></b></a></li>
+      <div class = 'col-sm-4 col-xs-10 col-md-1 col-md-push-2'>
+        <div class="dropdown">
+            <button type="button" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="true">
+              <span class="glyphicon glyphicon-paperclip"></span>
+                Документація
+                <span class="caret"></span>
+            </button>
+            <ul class = 'dropdown-menu ' >
+                <li ><a href ='#regulations' routerLink="/regulations" >Нормативні документи ОСББ</a></li>
+                <li><a href ='#control' routerLink="/control">Протоколи правління</a></li>
+                <li><a href ='#meeting-protocols' routerLink="/meeting-protocols">Протоколи загальних зборів</a></li>
+                <li><a href ='#revision' routerLink="/revision">Акти Ревізійної комісії</a></li>
+            </ul>
+          </div>
       </div>
-      <div class = 'col-md-2 col-md-push-1'>
-       <li><a href = '#gallery' data-toggle = 'tab' routerLink = 'gallery' routerLinkActive='active'><b>
-
-<button type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-phone" ></span>Контакти</button></b></a></li>
+      <div class = 'col-sm-2 col-md-1 col-md-push-3 ' id="cont">
+            <div class="dropdown">
+            <button type="button" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-phone-alt"></span>
+              Контакти
+              <span class="caret"></span>
+            </button>
+            <ul class = 'dropdown-menu '>
+                <li><a  href ='#contacts' routerLink="/contacts">Контакти правління</a></li>
+            </ul>
+          </div>
       </div>
-      <div class = 'container'>
+  </div>
+</div>
+</header>
+<main>
+        <div class = 'container'>
         <router-outlet></router-outlet>
       </div>
 
-  </div>
-  </div>
-</header>
+</main>
 <footer>
   <div class = 'container-fluid'>
     <div class = 'row'>
-      <span class = 'text-muted col-md-3'>Веб-сайт мешканців будинку в м.Львів <br> по пл. П.Григоренка.4/вул. М.Менцинського.2
+    <span class = 'text-muted col-md-3'>
+        <a href = 'FAQ' id="btn" routerLink = '/faq' routerLinkActive = 'active' class="btn btn-lg video-btn wow  animated" data-wow-delay=".3s" data-effect="mfp-zoom-in" style="visibility: visible; animation-delay: 0.3s;"><i class="fa fa-arrow-down">Питання/Відповіді</i></a>
       </span>
       <div class = 'col-md-push-7 col-md-2'>
         <ul>
@@ -43,7 +71,6 @@
           <li class = 'text-muted'>Ігор</li>
           <li class = 'text-muted'>097 361 28 71</li>
           <li class = 'text-muted'>tvoyezhytlo@gmail.com</li>
-          
         </ul>
       </div>
       <div class = 'col-md-push-3 col-md-2'>
@@ -53,7 +80,6 @@
           <li class = 'text-muted'>097 458 61 21</li>
         </ul>
       </div>
-     
     </div>
   </div>
 </footer>

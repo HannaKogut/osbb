@@ -1,11 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-/* You can add global styles to this file, and also import other style files */
+
 body{
-	 background-image: url('/assets/images/back(2).png');
+	 background-image: url('/assets/images/back4.jpg');
 	
     width: 100%;
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
